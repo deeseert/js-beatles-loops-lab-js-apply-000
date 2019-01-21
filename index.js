@@ -5,3 +5,13 @@ function theBeatlesPlay(mu, ins){
     }
     return emptyArr;
 }
+
+function johnLennonFacts(facts){
+  let newArr = [];
+  let i = 0;
+  while (i < facts.length) {
+    newArr.push(facts[i] + "!!!")
+    i++;
+  }
+  return newArr;
+}
